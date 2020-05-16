@@ -1,0 +1,5 @@
+<launch> 
+  <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" />
+  <node name="Server" pkg = "project_00" type="my_initials_server.py" output = "screen" required = "true"/>
+  <node name="Client" pkg = "project_00" type="my_initials_client.py" output = "screen" required = "true"/>
+ </launch>
